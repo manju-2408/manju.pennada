@@ -1,0 +1,94 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akrtetali</title>
+    <style>
+        p {
+            color: red;
+            font-size: 16px;
+        }
+        body {
+            background-image: url('vasavi.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+        nav {
+            font-size: 28px;
+            background-color: green;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+        aside {
+            background-color: #f4f4f4;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>             
+</head>
+<body>
+    <header>
+        <h1>Full Stack Development</h1>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">HTML</a> |
+            <a href="#">CSS</a> |
+            <a href="#">JavaScript</a> |
+            <a href="#">NodeJS</a> |
+            <a href="#">ReactJS</a> |
+            <a href="#">About Us</a>
+        </nav>
+    </header>
+
+   <main>
+     <section>
+       <figure>
+         <img src="D:\kumar\vasavi.jpg" width=1100 height=300>
+           <figcaption>
+             Welcome to Sri Vasavi Engineering COllege
+           </figcaption>
+            </figure>
+            <p>HTML - Hypertext Markup Language. It is the language understandable by the browser. Used to design front-end webpages.</p>
+            <ul>
+                <li>Basics</li>
+                <li>Form tag</li>
+                <li>Frame tag</li>
+            </ul>
+            <a href="https://akrtetali.blogspot.com">Visit Akrtetali</a>
+        </section>    
+
+        <section>
+            <p>CSS - Cascading Style Sheets</p>
+            <a href="https://akrtetali.blogspot.com">Visit Akrtetali</a>
+        </section>    
+
+        <section>
+            <p>JavaScript - Dynamic Webpages and client-side validation</p>
+            <a href="https://akrtetali.blogspot.com">Visit Akrtetali</a>
+        </section>    
+
+        <aside>
+            <p>For more details </p>
+            <a href="https://srivasaviengg.ac.in/">Visit Sri Vasavi Engineering College</a>
+        </aside>
+    </main>
+
+    <footer>
+        <p style="color: green">Developed by Anil Kumar Reddy Tetali</p>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+        <p>Contact us: <a href="mailto:info@example.com">info@example.com</a></p>
+    </footer>
+</body>
+</html>
+
+
